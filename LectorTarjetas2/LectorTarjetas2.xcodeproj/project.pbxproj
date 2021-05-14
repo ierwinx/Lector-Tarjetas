@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA55325425F2A48D00141A42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA55325325F2A48D00141A42 /* AppDelegate.swift */; };
+		AA55325625F2A48D00141A42 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA55325525F2A48D00141A42 /* SceneDelegate.swift */; };
+		AA55325825F2A48D00141A42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA55325725F2A48D00141A42 /* ViewController.swift */; };
+		AA55325B25F2A48D00141A42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA55325925F2A48D00141A42 /* Main.storyboard */; };
+		AA55325D25F2A48E00141A42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA55325C25F2A48E00141A42 /* Assets.xcassets */; };
+		AA55326025F2A48E00141A42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA55325E25F2A48E00141A42 /* LaunchScreen.storyboard */; };
+		D1F0EA4B330DC09105E9A2D0 /* Pods_LectorTarjetas2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12DCF997E1A2142CB54076C3 /* Pods_LectorTarjetas2.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		12DCF997E1A2142CB54076C3 /* Pods_LectorTarjetas2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LectorTarjetas2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9673DF35CA8A617730F62CE5 /* Pods-LectorTarjetas2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LectorTarjetas2.debug.xcconfig"; path = "Target Support Files/Pods-LectorTarjetas2/Pods-LectorTarjetas2.debug.xcconfig"; sourceTree = "<group>"; };
+		AA55325025F2A48D00141A42 /* LectorTarjetas2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LectorTarjetas2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA55325325F2A48D00141A42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA55325525F2A48D00141A42 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AA55325725F2A48D00141A42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA55325A25F2A48D00141A42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA55325C25F2A48E00141A42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA55325F25F2A48E00141A42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA55326125F2A48E00141A42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6B6209EF41F6EED8FE49ECD /* Pods-LectorTarjetas2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LectorTarjetas2.release.xcconfig"; path = "Target Support Files/Pods-LectorTarjetas2/Pods-LectorTarjetas2.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA55324D25F2A48D00141A42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1F0EA4B330DC09105E9A2D0 /* Pods_LectorTarjetas2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48476C1BC1324E33FC662828 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9673DF35CA8A617730F62CE5 /* Pods-LectorTarjetas2.debug.xcconfig */,
+				F6B6209EF41F6EED8FE49ECD /* Pods-LectorTarjetas2.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		755E879289D48000A1BBEE84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12DCF997E1A2142CB54076C3 /* Pods_LectorTarjetas2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA55324725F2A48D00141A42 = {
+			isa = PBXGroup;
+			children = (
+				AA55325225F2A48D00141A42 /* LectorTarjetas2 */,
+				AA55325125F2A48D00141A42 /* Products */,
+				48476C1BC1324E33FC662828 /* Pods */,
+				755E879289D48000A1BBEE84 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AA55325125F2A48D00141A42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA55325025F2A48D00141A42 /* LectorTarjetas2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA55325225F2A48D00141A42 /* LectorTarjetas2 */ = {
+			isa = PBXGroup;
+			children = (
+				AA55325325F2A48D00141A42 /* AppDelegate.swift */,
+				AA55325525F2A48D00141A42 /* SceneDelegate.swift */,
+				AA55325725F2A48D00141A42 /* ViewController.swift */,
+				AA55325925F2A48D00141A42 /* Main.storyboard */,
+				AA55325C25F2A48E00141A42 /* Assets.xcassets */,
+				AA55325E25F2A48E00141A42 /* LaunchScreen.storyboard */,
+				AA55326125F2A48E00141A42 /* Info.plist */,
+			);
+			path = LectorTarjetas2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA55324F25F2A48D00141A42 /* LectorTarjetas2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA55326425F2A48E00141A42 /* Build configuration list for PBXNativeTarget "LectorTarjetas2" */;
+			buildPhases = (
+				0B137BB0C8091833E03565E7 /* [CP] Check Pods Manifest.lock */,
+				AA55324C25F2A48D00141A42 /* Sources */,
+				AA55324D25F2A48D00141A42 /* Frameworks */,
+				AA55324E25F2A48D00141A42 /* Resources */,
+				588BCE85C54373CD6A915FD1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LectorTarjetas2;
+			productName = LectorTarjetas2;
+			productReference = AA55325025F2A48D00141A42 /* LectorTarjetas2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA55324825F2A48D00141A42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					AA55324F25F2A48D00141A42 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = AA55324B25F2A48D00141A42 /* Build configuration list for PBXProject "LectorTarjetas2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA55324725F2A48D00141A42;
+			productRefGroup = AA55325125F2A48D00141A42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA55324F25F2A48D00141A42 /* LectorTarjetas2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA55324E25F2A48D00141A42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA55326025F2A48E00141A42 /* LaunchScreen.storyboard in Resources */,
+				AA55325D25F2A48E00141A42 /* Assets.xcassets in Resources */,
+				AA55325B25F2A48D00141A42 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B137BB0C8091833E03565E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LectorTarjetas2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		588BCE85C54373CD6A915FD1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LectorTarjetas2/Pods-LectorTarjetas2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LectorTarjetas2/Pods-LectorTarjetas2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LectorTarjetas2/Pods-LectorTarjetas2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA55324C25F2A48D00141A42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA55325825F2A48D00141A42 /* ViewController.swift in Sources */,
+				AA55325425F2A48D00141A42 /* AppDelegate.swift in Sources */,
+				AA55325625F2A48D00141A42 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA55325925F2A48D00141A42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA55325A25F2A48D00141A42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA55325E25F2A48E00141A42 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA55325F25F2A48E00141A42 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA55326225F2A48E00141A42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA55326325F2A48E00141A42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA55326525F2A48E00141A42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9673DF35CA8A617730F62CE5 /* Pods-LectorTarjetas2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9TPTHP2V2G;
+				INFOPLIST_FILE = LectorTarjetas2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bugsoft.LectorTarjetas2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA55326625F2A48E00141A42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6B6209EF41F6EED8FE49ECD /* Pods-LectorTarjetas2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9TPTHP2V2G;
+				INFOPLIST_FILE = LectorTarjetas2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bugsoft.LectorTarjetas2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA55324B25F2A48D00141A42 /* Build configuration list for PBXProject "LectorTarjetas2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA55326225F2A48E00141A42 /* Debug */,
+				AA55326325F2A48E00141A42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA55326425F2A48E00141A42 /* Build configuration list for PBXNativeTarget "LectorTarjetas2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA55326525F2A48E00141A42 /* Debug */,
+				AA55326625F2A48E00141A42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA55324825F2A48D00141A42 /* Project object */;
+}
